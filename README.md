@@ -1,0 +1,2 @@
+# top-500-Albums
+The idea behind this project was to expand my music taste. I got the idea from a video i watched where a person was listening and reviewing the top 500 albums according to Rollings Stones list. I was gettign tired of clicking to the website every time i wanted to see waht the next album was. I wrote this code to access the Spotify API and had all of the albums on the list get liked and added to my Library. Now they are added in order and when I listen to one I dont like I simply unlike the album.
