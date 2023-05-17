@@ -3,7 +3,7 @@ from spotipy.oauth2 import SpotifyOAuth
 import pandas as pd
 import openpyxl
 
-df = pd.read_excel('/Users/jamesrogers/Documents/Python top 500 Albums Project/Copy of top 500 albums.xlsx')
+df = pd.read_excel(file_path)
 df['Checked'] = False
 
 # Function to check off an album
@@ -17,9 +17,9 @@ def check_off(album):
 # Print the DataFrame
 print(df)
 
-client_id = '2c16b1c316404b559c789f205ce48012'
-client_secret = '23373dc43d3044dd8b81f7b2f0da78e8'
-redirect_uri = 'http://localhost:8080'
+client_id = 
+client_secret = 
+redirect_uri = 
 
 scope = 'user-library-read user-library-modify'
 
